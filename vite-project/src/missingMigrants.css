@@ -11,21 +11,8 @@ table {
   
   /* Styles for smaller screens */
   @media only screen and (max-width: 600px) {
-    table {
-      width: 100%;
-      overflow-x: auto;
-      display: block;
-    }
-  
-    th, td {
-      width: 100%; /* Make cells take up full width */
-      box-sizing: border-box;
-      white-space: normal; /* Allow text to wrap */
-      display: block;
-    }
-  
-    td img {
-      display: none; /* Hide images on smaller screens */
+    #table {
+      display: none;
     }
   }
   

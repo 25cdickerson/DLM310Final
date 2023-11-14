@@ -15,9 +15,8 @@ function MissingMigrants() {
         <h2>A Look at the Numbers</h2>
         <h1>4,825</h1>
         <h4>Migrants Missing En Route To The US-Mexico Border</h4>
-        <p>(From 2014-2023)</p>
       </div>
-      <div>
+      <div id="table">
         <h2>Cause of Death</h2>
         <table>
             <thead>
@@ -51,6 +50,7 @@ function MissingMigrants() {
             </tbody>
         </table>
       </div>
+      <h4>Data From 2014-2023 By <a href="https://missingmigrants.iom.int/project">Missing Migrants Project</a></h4>
     </>
   );
 }
