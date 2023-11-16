@@ -13,13 +13,18 @@ import truck from './photos/truck_smuggling.jpg';
 import crash from './photos/truck_crash.png';
 import waterJug from './photos/water_jug.jpg';
 import trainDerail from './photos/train_derail.jpg';
+import item1 from './photos/item1.png';
+import item2 from './photos/item2.png';
+import item3 from './photos/item3.png';
+import item4 from './photos/item4.png';
+import item5 from './photos/item5.png';
+import item6 from './photos/item6.png';
+import item7 from './photos/item7.png';
 
 function App() {
-
-
   return (
     <>
-      <Parallax pages={10}>
+      <Parallax pages={18}>
             <ParallaxLayer
               speed={1}
               factor={1}
@@ -40,7 +45,7 @@ function App() {
                   textAlign: 'center',
                 }}>
                 <h1>Echoes of the Border</h1>
-                <h4>An archive for those who cannot tell their stories by Preston Dickerson</h4>
+                <h4>An archive for those who cannot tell their stories</h4>
               </ParallaxLayer>
             </ParallaxLayer>
             <ParallaxLayer 
@@ -67,7 +72,7 @@ function App() {
                   color: '#3e2723',
                   textAlign: 'center'
               }}>
-                <h2>Here are some of their stories</h2>
+                <h2>BOX I: The Lost</h2>
               </ParallaxLayer>
           </ParallaxLayer>
           <ParallaxLayer
@@ -104,7 +109,7 @@ function App() {
                   justifyContent: 'flex-end',
                   alignItems: 'center',
                   color: '#3e2723',
-                  textAlign: 'center'
+                  textAlign: 'center',
               }}>
                 <h2>Deadly Fire, March 2023</h2>
                 <br></br>
@@ -312,9 +317,183 @@ function App() {
                 <p>Source <a href='https://www.usnews.com/news/world/articles/2023-03-28/factbox-deadly-tragedies-involving-migrants-crossing-mexico'>U.S. News</a></p>
               </ParallaxLayer>
           </ParallaxLayer>
+          <ParallaxLayer 
+              speed={0.85}
+              offset={9.5} 
+              style={{
+                  display: 'flex',
+                  flexDirection: 'column',
+                  justifyContent: 'flex-end',
+                  alignItems: 'center',
+                  color: '#3e2723',
+                  textAlign: 'left'
+              }}>
+              <blockquote className="quote-container">
+                <h2>&apos;What did she think when she collapsed to the ground, and rolled on her back in surrender?</h2>
+                <h2>Who will take care of my family now?</h2>
+                <h2>Will someone find me before the animals do?</h2>
+                <h2>Where is this Houston a few miles away?&apos;</h2>
+                <h2>- Stephanie Elizondo Griest, All the Agents and Saints</h2>
+              </blockquote>
+          </ParallaxLayer>
+          <ParallaxLayer 
+              speed={0.75}
+              offset={9.9} 
+              style={{
+                  display: 'flex',
+                  flexDirection: 'column',
+                  justifyContent: 'flex-end',
+                  alignItems: 'center',
+                  color: '#3e2723',
+                  textAlign: 'center'
+              }}>
+                <h2>BOX II: Items</h2>
+          </ParallaxLayer>
+          <ParallaxLayer 
+              speed={0.95}
+              offset={10.4} 
+              style={{
+                  display: 'flex',
+                  flexDirection: 'column',
+                  justifyContent: 'flex-end',
+                  alignItems: 'center',
+                  color: '#3e2723',
+                  textAlign: 'center'
+              }}>
+                <h2>An empty wallet.</h2>
+          </ParallaxLayer>
+          <ParallaxLayer 
+              speed={0.85}
+              offset={10.5} 
+              style={{
+                  display: 'flex',
+                  flexDirection: 'column',
+                  justifyContent: 'flex-end',
+                  alignItems: 'center',
+                  color: '#3e2723',
+                  textAlign: 'center'
+              }}>
+                <h2>A pink hairbrush.</h2>
+          </ParallaxLayer>
+          <ParallaxLayer 
+              speed={0.75}
+              offset={10.6} 
+              style={{
+                  display: 'flex',
+                  flexDirection: 'column',
+                  justifyContent: 'flex-end',
+                  alignItems: 'center',
+                  color: '#3e2723',
+                  textAlign: 'center'
+              }}>
+                <h2>A line of Scripture.</h2>
+          </ParallaxLayer>
+          <ParallaxLayer 
+              speed={0.65}
+              offset={10.7} 
+              style={{
+                  display: 'flex',
+                  flexDirection: 'column',
+                  justifyContent: 'flex-end',
+                  alignItems: 'center',
+                  color: '#3e2723',
+                  textAlign: 'center'
+              }}>
+                <h2>Birth certificates.</h2>
+          </ParallaxLayer>
+          <ParallaxLayer 
+              speed={0.55}
+              offset={10.8} 
+              style={{
+                  display: 'flex',
+                  flexDirection: 'column',
+                  justifyContent: 'flex-end',
+                  alignItems: 'center',
+                  color: '#3e2723',
+                  textAlign: 'center'
+              }}>
+                <h2>Phone numbers of loved ones.</h2>
+          </ParallaxLayer>
+          <ParallaxLayer 
+              speed={0.45}
+              offset={10.9} 
+              style={{
+                  display: 'flex',
+                  flexDirection: 'column',
+                  justifyContent: 'flex-end',
+                  alignItems: 'center',
+                  color: '#3e2723',
+                  textAlign: 'center'
+              }}>
+                <h2>Prized belongings.</h2>
+          </ParallaxLayer>
+          <div className='noMobile'>
+          <ParallaxLayer 
+              speed={0.85}
+              offset={14} 
+              style={{
+                  display: 'flex',
+                  flexDirection: 'column',
+                  justifyContent: 'flex-end',
+                  alignItems: 'center',
+                  width: '100%',
+                  color: '#3e2723',
+                  textAlign: 'center'
+              }}>
+                <img src={item1} alt="Item 1" style={{ width: '50%' }}></img>
+                <img src={item2} alt="Item 2" style={{ width: '50%' }}></img>
+                <img src={item3} alt="Item 3" style={{ width: '50%' }}></img>
+                <img src={item4} alt="Item 4" style={{ width: '50%' }}></img>
+                <img src={item5} alt="Item 5" style={{ width: '50%' }}></img>
+                <img src={item6} alt="Item 6" style={{ width: '50%' }}></img>
+                <img src={item7} alt="Item 7" style={{ width: '50%' }}></img>
+                <ParallaxLayer 
+              speed={0.95}
+              offset={2}
+              style={{
+                  display: 'flex',
+                  flexDirection: 'column',
+                  justifyContent: 'flex-end',
+                  alignItems: 'center',
+                  color: '#3e2723',
+                  textAlign: 'left'
+              }}>
+              <blockquote className="quote-container">
+                <h2>&apos;Why is it that looking through someone&apos;s</h2>
+                <h2>things is always somehow so sad and also endearing,</h2>
+                <h2>as if the deep fragility of their person becomes</h2>
+                <h2>exposed in their absence, through their belongings?&apos;</h2>
+                <h2>- Valeria Luiselli, Lost Children Archive</h2>
+              </blockquote>
+          </ParallaxLayer>
+          <ParallaxLayer 
+              speed={0.95}
+              offset={3}
+              style={{
+                  display: 'flex',
+                  flexDirection: 'column',
+                  justifyContent: 'flex-end',
+                  alignItems: 'center',
+                  color: '#3e2723',
+                  textAlign: 'left'
+              }}>
+              <blockquote className="quote-container">
+                <h2>&apos;When group large groups moved in</h2>
+                <h2>things would be littered the size of football fields&apos;</h2>
+                <h2>- Border Trilogy Part 1: Hole in the Fence</h2>
+              </blockquote>
+          </ParallaxLayer>
+          </ParallaxLayer>
+          </div>
       </Parallax>
     </>
   );
 }
 
+/* Citations (from Class):
+  Lost Children Archive
+  All the Agents and Saints 
+  Radio Lab Border Trilogy
+    (Part 1, Part 2, Part 3)
+*/
 export default App;

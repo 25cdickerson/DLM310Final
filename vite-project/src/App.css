@@ -12,3 +12,17 @@
 body{
     background-color: bisque;
 }
+
+.quote-container {
+    background-color: #fff; /* Set your desired background color */
+    border-left: 5px solid #3e2723; /* Set your desired border color and size */
+    padding: 20px; /* Adjust the padding as needed */
+    margin: 10px 0; /* Add some margin for spacing */
+  }
+  
+/* Media query for smaller screens (e.g., mobile devices) */
+@media only screen and (max-width: 600px) {
+    .noMobile {
+      display: none; /* Hide the element on smaller screens */
+    }
+  }
