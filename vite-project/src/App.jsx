@@ -26,7 +26,7 @@ import borderCamp2 from './photos/borderCamp2.jpg';
 function App() {
   return (
     <>
-      <Parallax pages={19}>
+      <Parallax pages={22}>
             <ParallaxLayer
               speed={1}
               factor={1}
@@ -639,15 +639,42 @@ function App() {
                 <h2>- This American Life: The Out Crowd</h2>
               </blockquote>
           </ParallaxLayer>
+          <ParallaxLayer 
+              speed={0.85}
+              offset={20}
+              style={{
+                  display: 'flex',
+                  flexDirection: 'column',
+                  justifyContent: 'flex-end',
+                  alignItems: 'center',
+                  color: '#3e2723',
+                  textAlign: 'left'
+              }}>
+              <div className='Citations'>
+                <h2>Citations</h2>
+                <p>Luiselli, V. (2019). Lost children archive. Fourth Estate. </p>
+                <p>Griest, S. E. (2020). All the agents and saints: Dispatches from the U.S. borderlands. University of North Carolina Press. </p>
+                <p>Border Trilogy Part 1: Hole in the fence. Radiolab. (n.d.). https://radiolab.org/podcast/border-trilogy-part-1 </p>
+                <p>Border Trilogy Part 2: Hold the line. Radiolab. (n.d.-b). https://radiolab.org/podcast/border-trilogy-part-2-hold-line-2310 </p>
+                <p>Border Trilogy Part 3: What remains. Radiolab. (n.d.-c). https://radiolab.org/podcast/border-trilogy-part-3-what-remains </p>
+                <p>The out crowd. This American Life. (2021, May 20). https://www.thisamericanlife.org/688/the-out-crowd </p>
+                <p>Hale, M. (2010, September 15). Fences make good neighbors? this one has its doubters. The New York Times. https://www.nytimes.com/2010/09/16/arts/television/16fence.html </p>
+                <p>Jr., V. B. (2023, March 30). Mexican prosecutors investigating murder in deadly fire at Migrant Center. RAPPLER. https://www.rappler.com/world/latin-america/mexico-prosecutors-investigating-murder-migrant-center-fire/ </p>
+                <p>Thomson Reuters. (n.d.). Breaking International News &amp; Views. Reuters. https://www.reuters.com/ </p>
+                <p>Chamberlain, S. (2021, May 10). Dramatic video shows illegal immigrants streaming across Rio Grande. New York Post. https://nypost.com/2021/05/10/video-shows-illegal-immigrants-streaming-across-rio-grande/ </p>
+                <p>Cnn. (2022, July 2). 4 charged in Texas semi-truck smuggling operation that left 53 migrants dead. NBC2 News. https://nbc-2.com/news/national-world/2022/06/30/4-people-have-been-charged-in-the-texas-semitruck-smuggling-operation-that-left-53-migrants-dead/ </p>
+                <p>Press, A. (2021, March 2). SUV carrying 25 crashes with semi truck, killing 13 north of US-mexico border. Daily News. https://www.dailynews.com/2021/03/02/hospital-suv-carrying-27-crashes-with-semitruck-killing-15/ </p>
+                <p>Train Derailment Tabasco Mexico. Documenting Reality. (n.d.). https://www.documentingreality.com/forum/f10/train-derailment-tabasco-mexico-132612/ </p>
+                <p>Factbox-deadly tragedies involving migrants crossing Mexico - U.S. news ... (n.d.). https://www.usnews.com/news/world/articles/2023-03-28/factbox-deadly-tragedies-involving-migrants-crossing-mexico </p>
+                <p>Caitlin O’Hara Photos July 28, 2017. (2017, July 28). What they left behind: Items found in the Borderlands. High Country News – Know the West. https://www.hcn.org/articles/photos-what-they-left-behind-no-more-deaths-found-in-the-borderlands </p>
+                <p>Baddour, D. (2020, February 12). A refugee camp grows on the US-mexico border. Al Jazeera. https://www.aljazeera.com/news/2020/2/12/a-refugee-camp-grows-on-the-us-mexico-border </p>
+                <p>Grillo, I. (2018, December 21). The Mexican border as Refugee Camp. The New York Times. https://www.nytimes.com/2018/12/21/opinion/the-mexican-border-as-refugee-camp.html </p>
+                <p>Montoya-Galvez, C. (2022, October 29). At least 853 migrants died crossing the U.S.-Mexico border in past 12 months - a record high. CBS News. https://www.cbsnews.com/news/migrant-deaths-crossing-us-mexico-border-2022-record-high/ </p>
+              </div>
+          </ParallaxLayer>
       </Parallax>
     </>
   );
 }
 
-/* Citations (from Class):
-  Lost Children Archive
-  All the Agents and Saints 
-  Radio Lab Border Trilogy
-    (Part 1, Part 2, Part 3)
-*/
 export default App;

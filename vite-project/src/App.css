@@ -19,6 +19,10 @@ body{
     padding: 20px; /* Adjust the padding as needed */
     margin: 10px 0; /* Add some margin for spacing */
   }
+
+.Citations{
+  width: 75%;
+}
   
 /* Media query for smaller screens (e.g., mobile devices) */
 @media only screen and (max-width: 600px) {
