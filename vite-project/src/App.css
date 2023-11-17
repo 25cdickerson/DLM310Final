@@ -23,6 +23,8 @@ body{
 /* Media query for smaller screens (e.g., mobile devices) */
 @media only screen and (max-width: 600px) {
     .noMobile {
-      display: none; /* Hide the element on smaller screens */
+      img{
+        width: 75%;
+      }
     }
   }

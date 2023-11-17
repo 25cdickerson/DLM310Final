@@ -20,11 +20,13 @@ import item4 from './photos/item4.png';
 import item5 from './photos/item5.png';
 import item6 from './photos/item6.png';
 import item7 from './photos/item7.png';
+import borderCamp1 from './photos/borderCamp1.png';
+import borderCamp2 from './photos/borderCamp2.jpg';
 
 function App() {
   return (
     <>
-      <Parallax pages={18}>
+      <Parallax pages={19}>
             <ParallaxLayer
               speed={1}
               factor={1}
@@ -449,7 +451,7 @@ function App() {
                 <img src={item7} alt="Item 7" style={{ width: '50%' }}></img>
                 <ParallaxLayer 
               speed={0.95}
-              offset={2}
+              offset={3}
               style={{
                   display: 'flex',
                   flexDirection: 'column',
@@ -468,7 +470,7 @@ function App() {
           </ParallaxLayer>
           <ParallaxLayer 
               speed={0.95}
-              offset={3}
+              offset={4}
               style={{
                   display: 'flex',
                   flexDirection: 'column',
@@ -478,13 +480,165 @@ function App() {
                   textAlign: 'left'
               }}>
               <blockquote className="quote-container">
-                <h2>&apos;When group large groups moved in</h2>
-                <h2>things would be littered the size of football fields&apos;</h2>
+                <h2>&apos;When large groups moved in, things</h2>
+                <h2>would be littered the size of football fields&apos;</h2>
                 <h2>- Border Trilogy Part 1: Hole in the Fence</h2>
               </blockquote>
           </ParallaxLayer>
+          <ParallaxLayer 
+              speed={0.95}
+              offset={5}
+              style={{
+                  display: 'flex',
+                  flexDirection: 'column',
+                  justifyContent: 'flex-end',
+                  alignItems: 'center',
+                  color: '#3e2723',
+                  textAlign: 'left'
+              }}>
+              <blockquote className="quote-container">
+                <h2>&apos;...and then they (vultures) pull of the shirt.</h2>
+                <h2>They eventually rip the jeans off.&apos;</h2>
+                <h2>- Border Trilogy Part 2: Hold the Line</h2>
+              </blockquote>
+          </ParallaxLayer>
+          <ParallaxLayer 
+              speed={0.95}
+              offset={6}
+              style={{
+                  display: 'flex',
+                  flexDirection: 'column',
+                  justifyContent: 'flex-end',
+                  alignItems: 'center',
+                  color: '#3e2723',
+                  textAlign: 'left'
+              }}>
+              <blockquote className="quote-container">
+                <h2>&apos;You know she was wearing camouflage clothes,</h2>
+                <h2>stretch pants, women&apos;s running shoes on,</h2>
+                <h2>and a scruncie around her wrist.&apos;</h2>
+                <h2>- Border Trilogy Part 3: What Remains</h2>
+              </blockquote>
+          </ParallaxLayer>
+          <p>Source: <a href="https://www.hcn.org/articles/photos-what-they-left-behind-no-more-deaths-found-in-the-borderlands">hcn</a></p>
+          </ParallaxLayer>
+          <ParallaxLayer 
+              speed={0.75}
+              offset={14.9}
+              style={{
+                  display: 'flex',
+                  flexDirection: 'column',
+                  justifyContent: 'flex-end',
+                  alignItems: 'center',
+                  color: '#3e2723',
+                  textAlign: 'center'
+              }}>
+              <h2>BOX III: The Stranded</h2>
+          </ParallaxLayer>
+          <ParallaxLayer 
+              speed={0.95}
+              offset={15}
+              style={{
+                  display: 'flex',
+                  flexDirection: 'column',
+                  justifyContent: 'flex-end',
+                  alignItems: 'center',
+                  color: '#3e2723',
+                  textAlign: 'left'
+              }}>
+              <blockquote className="quote-container">
+                <h2>&apos;Under the Remain in Mexico Policy,</h2>
+                <h2>people are sent back to Mexico...</h2>
+                <h2>As a result, the size of this camp grows</h2>
+                <h2>every day.&apos;</h2>
+                <h2>- This American Life: The Out Crowd</h2>
+              </blockquote>
           </ParallaxLayer>
           </div>
+          <ParallaxLayer
+              offset={16} 
+              speed={1}
+              style={{
+                backgroundImage: `url(${borderCamp1})`,
+                backgroundSize: 'cover',
+                /* Photo from https://www.aljazeera.com/news/2020/2/12/a-refugee-camp-grows-on-the-us-mexico-border */
+              }}>
+                <ParallaxLayer 
+                  speed={0.95}
+                  offset={7.4} 
+                  style={{
+                    display: 'flex',
+                    flexDirection: 'column',
+                    justifyContent: 'flex-end',
+                    alignItems: 'center',
+                    color: '#3e2723',
+                    textAlign: 'center',
+                }}>
+                <h2>Seeking Asylum</h2>
+                <br></br>
+                <p>In Mexico&apos;s Matamoros, thousands of asylum seekers wait in an encampment for their asylum cases to be heard in the US.</p>
+              </ParallaxLayer>
+          </ParallaxLayer>
+          <ParallaxLayer 
+              speed={1.1}
+              offset={17}
+              style={{
+                  display: 'flex',
+                  flexDirection: 'column',
+                  justifyContent: 'flex-end',
+                  alignItems: 'center',
+                  color: '#3e2723',
+                  textAlign: 'left'
+              }}>
+              <blockquote className="quote-container">
+                <h2>&apos;There is no regular water supply here,</h2>
+                <h2>volunteer groups from over the border in</h2>
+                <h2>Brownsville haul in over 3000 bottles of water</h2>
+                <h2>every day.&apos;</h2>
+                <h2>- This American Life: The Out Crowd</h2>
+              </blockquote>
+          </ParallaxLayer>
+          <ParallaxLayer
+              offset={18} 
+              speed={1}
+              style={{
+                backgroundImage: `url(${borderCamp2})`,
+                backgroundSize: 'cover',
+                /* Photo from https://www.nytimes.com/2018/12/21/opinion/the-mexican-border-as-refugee-camp.html */
+              }}>
+                <ParallaxLayer 
+                  speed={0.95}
+                  offset={8.4} 
+                  style={{
+                    display: 'flex',
+                    flexDirection: 'column',
+                    justifyContent: 'flex-end',
+                    alignItems: 'center',
+                    color: '#3e2723',
+                    textAlign: 'center',
+                }}>
+                <h2>Seeking Asylum</h2>
+                <br></br>
+                <p>Another tent camp along the United States/Mexico border.</p>
+              </ParallaxLayer>
+          </ParallaxLayer>
+          <ParallaxLayer 
+              speed={1.1}
+              offset={19}
+              style={{
+                  display: 'flex',
+                  flexDirection: 'column',
+                  justifyContent: 'flex-end',
+                  alignItems: 'center',
+                  color: '#3e2723',
+                  textAlign: 'left'
+              }}>
+              <blockquote className="quote-container">
+                <h2>&apos;There is no proper sanitation.</h2>
+                <h2>Just five toilets for over 2500 people.&apos;</h2>
+                <h2>- This American Life: The Out Crowd</h2>
+              </blockquote>
+          </ParallaxLayer>
       </Parallax>
     </>
   );
