@@ -432,7 +432,7 @@ function App() {
           <div className='noMobile'>
           <ParallaxLayer 
               speed={0.85}
-              offset={14} 
+              offset={15.3} 
               style={{
                   display: 'flex',
                   flexDirection: 'column',
@@ -451,7 +451,7 @@ function App() {
                 <img src={item7} alt="Item 7" style={{ width: '50%' }}></img>
                 <ParallaxLayer 
               speed={0.95}
-              offset={3}
+              offset={4}
               style={{
                   display: 'flex',
                   flexDirection: 'column',
@@ -470,7 +470,7 @@ function App() {
           </ParallaxLayer>
           <ParallaxLayer 
               speed={0.95}
-              offset={4}
+              offset={5}
               style={{
                   display: 'flex',
                   flexDirection: 'column',
@@ -487,7 +487,7 @@ function App() {
           </ParallaxLayer>
           <ParallaxLayer 
               speed={0.95}
-              offset={5}
+              offset={6}
               style={{
                   display: 'flex',
                   flexDirection: 'column',
@@ -504,7 +504,7 @@ function App() {
           </ParallaxLayer>
           <ParallaxLayer 
               speed={0.95}
-              offset={6}
+              offset={7}
               style={{
                   display: 'flex',
                   flexDirection: 'column',
@@ -524,7 +524,7 @@ function App() {
           </ParallaxLayer>
           <ParallaxLayer 
               speed={0.75}
-              offset={14.9}
+              offset={15.5}
               style={{
                   display: 'flex',
                   flexDirection: 'column',
@@ -537,7 +537,7 @@ function App() {
           </ParallaxLayer>
           <ParallaxLayer 
               speed={0.95}
-              offset={15}
+              offset={16}
               style={{
                   display: 'flex',
                   flexDirection: 'column',
@@ -556,7 +556,7 @@ function App() {
           </ParallaxLayer>
           </div>
           <ParallaxLayer
-              offset={16} 
+              offset={17} 
               speed={1}
               style={{
                 backgroundImage: `url(${borderCamp1})`,
@@ -565,11 +565,11 @@ function App() {
               }}>
                 <ParallaxLayer 
                   speed={0.95}
-                  offset={7.4} 
+                  offset={8.3} 
                   style={{
                     display: 'flex',
                     flexDirection: 'column',
-                    justifyContent: 'flex-end',
+                    justifyContent: 'flex-start',
                     alignItems: 'center',
                     color: '#3e2723',
                     textAlign: 'center',
@@ -581,7 +581,7 @@ function App() {
           </ParallaxLayer>
           <ParallaxLayer 
               speed={1.1}
-              offset={17}
+              offset={18}
               style={{
                   display: 'flex',
                   flexDirection: 'column',
