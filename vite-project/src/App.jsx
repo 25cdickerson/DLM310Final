@@ -641,7 +641,7 @@ function App() {
           </ParallaxLayer>
           <ParallaxLayer 
               speed={0.85}
-              offset={20}
+              offset={20.9}
               style={{
                   display: 'flex',
                   flexDirection: 'column',
